@@ -1,5 +1,13 @@
 You can check it from [hasta-randevu-sistemi](https://hasta-randevu.netlify.app/vatandas/login)
 
+![gorsel1](/public/Screenshot_1.png)
+![gorsel2](/public/Screenshot_2.png)
+![gorsel3](/public/Screenshot_3.png)
+![gorsel4](/public/Screenshot_4.png)
+![gorsel5](/public/Screenshot_5.png)
+![gorsel6](/public/Screenshot_6.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
