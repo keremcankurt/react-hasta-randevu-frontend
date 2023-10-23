@@ -17,9 +17,6 @@ $secondary-color: #ccc;
         padding-bottom: 20px;
         font-family: 'Oswald', sans-serif;
         background: #c5c5c5;
-        @media screen and (max-width: 1024px) {
-          width: 100vw;
-        }
         .backtohome{
             color: rgb(98, 98, 98);
             font-size: 12px;
@@ -33,6 +30,8 @@ $secondary-color: #ccc;
         .dropdown {
             margin: 10px;
             align-self: flex-end;
+            display: flex;
+            flex-wrap: nowrap;
       
             label {
               font-weight: bold;
@@ -50,6 +49,8 @@ $secondary-color: #ccc;
           .datePicker {
             margin: 10px;
             align-self: flex-end;
+              display: flex;
+            flex-wrap: nowrap;
       
             label {
               font-weight: bold;
