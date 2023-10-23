@@ -1,0 +1,91 @@
+.container {
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid rgba(160, 158, 158, 0.597);
+            border-radius: 20px;
+            box-shadow: 0 14px 28px rgba(141, 139, 139, 0.25),
+                    0 10px 10px rgba(128, 125, 125, 0.22);
+        padding: 10px;
+        padding-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+        background: #c5c5c5;
+        .buttons{
+            display: flex;
+            gap: 10px;
+            margin: 5px 0px;
+            button{
+                border-radius: 5px;
+                border: none;
+                padding: 4px 8px;
+                font-size: 14px;
+                &:hover{
+                    background-color: rgb(181, 181, 181);
+                }
+            }
+            .selected{
+                background-color: rgb(181, 181, 181);
+            }
+        }
+        .create-appointment{
+            align-self: flex-start;
+            button{
+                text-align: center;
+                background-color: rgb(82, 250, 70);
+                font-size: 18px;
+                border: 1px solid gray;
+                padding: 5px 10px;
+                border-radius: 10px;
+                color: rgb(65, 65, 65);
+                &:hover{
+                    background-color: rgb(129, 252, 120);
+                }
+
+            }
+        }
+        .logout{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 5px;
+            button{
+                padding: 4px 8px;
+                background-color: red;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; // Üstte olmasını sağlamak için z-index değeri
+  
+    .loading-spinner {
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid #3498db;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 2s linear infinite;
+    }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

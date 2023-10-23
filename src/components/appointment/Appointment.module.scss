@@ -1,0 +1,14 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(177, 177, 177);
+    padding: 4px 8px;
+    border-radius: 5px;
+    input[type='text']{
+        padding: 4px 8px;
+    }
+    button{
+        color: white;
+    }
+}

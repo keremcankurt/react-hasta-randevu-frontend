@@ -1,0 +1,67 @@
+/* AppointmentModal.module.scss */
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Siyah arka plan ve hafif opaklık */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .closeModalButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .timeSlots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .timeSlot {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .timeSlot:hover {
+    background: #0056b3;
+  }
+  .disabledTimeSlot{
+    background-color: gray;
+    &:hover{
+      background-color: gray;
+    }
+  }

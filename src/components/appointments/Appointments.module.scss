@@ -1,0 +1,37 @@
+.appointments{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 50vh;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+    .appointment{
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        padding: 5px 10px;
+        border-radius: 5px;
+        min-width: 400px;
+        .top{
+            display: flex;
+            justify-content: space-between;
+        }
+        .date{
+            align-self: center;
+        }
+        button{
+            background-color: red;
+            border: none;
+            padding: 3px;
+            border-radius: 5px;
+            &:hover{
+                background-color: rgb(255, 97, 97);
+            }
+        }
+    }
+}
+
+
+  

@@ -1,0 +1,107 @@
+$primary-color: #007bff;
+$secondary-color: #ccc;
+.container {
+    .randevu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid rgba(160, 158, 158, 0.597);
+            border-radius: 20px;
+            box-shadow: 0 14px 28px rgba(141, 139, 139, 0.25),
+                    0 10px 10px rgba(128, 125, 125, 0.22);
+        padding: 10px;
+        padding-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+        background: #c5c5c5;
+        .backtohome{
+            color: rgb(98, 98, 98);
+            font-size: 12px;
+            align-self: flex-start;
+            text-decoration: none;
+            &:hover{
+                color: rgb(171, 171, 171);
+            }
+            
+        }
+        .dropdown {
+            margin: 10px;
+            align-self: flex-end;
+      
+            label {
+              font-weight: bold;
+              margin-right: 10px;
+            }
+      
+            select {
+              padding: 5px;
+              border: 1px solid $secondary-color;
+              border-radius: 5px;
+              width: 30vw !important;
+            }
+          }
+      
+          .datePicker {
+            margin: 10px;
+            align-self: flex-end;
+      
+            label {
+              font-weight: bold;
+              margin-right: 10px;
+            }
+      
+            input[type="date"] {
+              padding: 5px;
+              border: 1px solid $secondary-color;
+              border-radius: 5px;
+              width: 30vw !important;
+            }
+          }
+      
+          .showAppointmentsButton {
+            background: $primary-color;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+      
+            &:hover {
+              background: darken($primary-color, 10%);
+            }
+            &:disabled{
+                background-color: #76c1f3;
+            }
+          }
+    }
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; // Üstte olmasını sağlamak için z-index değeri
+  
+    .loading-spinner {
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid #3498db;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 2s linear infinite;
+    }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
