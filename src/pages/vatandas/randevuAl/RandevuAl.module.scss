@@ -17,6 +17,9 @@ $secondary-color: #ccc;
         padding-bottom: 20px;
         font-family: 'Oswald', sans-serif;
         background: #c5c5c5;
+        @media screen and (max-width: 1024px) {
+          width: 100vw;
+        }
         .backtohome{
             color: rgb(98, 98, 98);
             font-size: 12px;
