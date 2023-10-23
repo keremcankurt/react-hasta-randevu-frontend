@@ -1,5 +1,5 @@
 import {del, get, post} from '../request';
-const BASE_URL = "http://localhost:4000/api/appointment";
+const BASE_URL = "https://hasta-randevu.onrender.com/api/appointment";
 
 export const getAppointments = () => get(`${BASE_URL}/`);
 export const getPastAppointments = () => get(`${BASE_URL}/pastappointments`);
