@@ -1,5 +1,5 @@
 import {get, put} from '../request';
-const BASE_URL = "http://localhost:4000/api/doctor";
+const BASE_URL = "https://hasta-randevu.onrender.com/api/doctor";
 
 export const getDoctors = () => get(`${BASE_URL}/`);
 export const getPatients = () => get(`${BASE_URL}/patients`);
