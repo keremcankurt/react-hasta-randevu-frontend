@@ -1,11 +1,11 @@
 You can check it from [hasta-randevu-sistemi](https://hasta-randevu.netlify.app/vatandas/login)
 
-![gorsel1](/public/Screenshot_1.png)
-![gorsel2](/public/Screenshot_2.png)
-![gorsel3](/public/Screenshot_3.png)
-![gorsel4](/public/Screenshot_4.png)
-![gorsel5](/public/Screenshot_5.png)
-![gorsel6](/public/Screenshot_6.png)
+![gorsel1](/public/Screenshot_1.jpg)
+![gorsel2](/public/Screenshot_2.jpg)
+![gorsel3](/public/Screenshot_3.jpg)
+![gorsel4](/public/Screenshot_4.jpg)
+![gorsel5](/public/Screenshot_5.jpg)
+![gorsel6](/public/Screenshot_6.jpg)
 
 
 # Getting Started with Create React App
